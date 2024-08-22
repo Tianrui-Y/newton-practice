@@ -4,6 +4,7 @@ stopping = 0.01  # stopping criteria for newton algorithm
 
 
 def func(x):
+    '''Define the prime function'''
     return (x - 2) ** 2
 
 
